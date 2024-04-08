@@ -1,0 +1,61 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ebook?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+      username: root
+      password: mysql
+      initial-size: 5 #初始化时建立物理连接的个数
+      min-idle: 5     #初始化时建立物理连接的个数
+      max-active: 20  #最大连接池数量
+      max-wait: 60000  #配置获取连接等待超时时间
+      time-between-eviction-runs-millis: 60000  #配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      min-evictable-idle-time-millis: 300000  #配置一个连接在连接池中的最小生存时间，单位是毫秒
+      validation-query: select 1             #用来检测连接是否有效的sql，要求是一个查询语句
+      test-while-idle: true             #建议配置为true，不影响性能，并且保证安全性
+      test-on-borrow: false             #申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。
+      test-on-return: false             #归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能
+      #打开PSCache, 并且指定每个连接上PSCache的大小
+      pool-prepared-statements: false   #mysql下建议关闭
+      max-pool-prepared-statement-per-connection-size: -1 #要启用PSCache，必须配置大于0
+      #监控配置
+      stat-view-servlet:
+        enabled: true #开启监控页面
+        login-username: druid #监控系统用户名
+        login-password: druid #监控系统密码
+        reset-enable: false #是否允许清空监控数据
+        url-pattern: /druid/*    #监控系统路径
+        allow: 127.0.0.1      #可访问监控系统的IP地址列表 （白名单）
+        deny:                 # 禁止访问监控系统的IP地址列表 （黑名单）
+        #打开SQL参数化合并监控 和 慢SQL记录
+      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      filters: stat,wall,slf4j
+      use-global-data-source-stat: true #合并多个DruidDataSource的监控数据
+      web-stat-filter:       #开启web监控(Web应用、URI监控、Session监控)
+        enabled: true       #开启 web监控
+        url-pattern: /*     #需要监控的路径
+        exclusions: /druid/*,*.js,*.gif,*.jpg,*.png,*.css,*.ico    #不监控静态文件和监控系统自己的请求
+        profile-enable: true      #统计请求调用链
+      aop-patterns: com.lq.controller.*,com.lq.mapper.*,com.lq.service.*    #开启springboot监控
+
+  freemarker:
+    cache: false
+    prefix:
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
+
+
+mybatis:
+  type-aliases-package: com.lq.entity
+  mapper-locations: classpath:mapper/*.xml
+
+server:
+  port: 8080
+
+#logging:
+#  level:
+#    com.lq.mapper: debug
+pagehelper:
+  helper-dialect: mysql #方言
+  reasonable: true #分页合理化

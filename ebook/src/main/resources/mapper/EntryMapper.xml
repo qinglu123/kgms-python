@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lq.mapper.EntryMapper">
+    <sql id="TABLE_NAME">`ebook_entry`</sql>
+    <sql id="column">
+        `id`
+        ,
+        `categoryId`,
+        `title`,
+        `summary`,
+        `uploaduser`,
+        `createdate`
+    </sql>
+    <sql id="Field">
+        `categoryId`
+        ,
+        `title`,
+        `summary`,
+        `uploaduser`,
+        `createdate`
+    </sql>
+    <sql id="FieldValue">
+        #{entry.categoryId}
+        ,
+        #{entry.title},
+        #{entry.summary},
+        #{entry.uploadUser},
+        #{entry.createDate}
+    </sql>
+    <select id="getAll" resultType="Entry">
+        select
+        <include refid="column"></include>
+        from
+        <include refid="TABLE_NAME"></include>
+        order by id desc
+    </select>
+    <select id="getEntryByCategoryId" parameterType="long" resultType="entry">
+        select
+        <include refid="column"></include>
+        from
+        <include refid="TABLE_NAME"></include>
+        <where>
+            <if test="categoryId > 0">
+                categoryId = #{categoryId}
+            </if>
+        </where>
+        order by id desc
+    </select>
+    <delete id="delById" parameterType="long">
+        delete from <include refid="TABLE_NAME"></include> where id = #{id}
+    </delete>
+    <update id="updateById" parameterType="entry">
+        update
+        <include refid="TABLE_NAME"></include>
+        <set>
+            <if test="entry.categoryId != null and entry.categoryId!= ''">
+                categoryId = #{entry.categoryId},
+            </if>
+            <if test="entry.title != null and entry.title!= ''">
+                title = #{entry.title},
+            </if>
+            <if test="entry.summary != null and entry.summary!= ''">
+                summary = #{entry.summary},
+            </if>
+            <if test="entry.uploadUser != null and entry.uploadUser!= ''">
+                uploaduser = #{entry.uploadUser},
+            </if>
+            <if test="entry.createDate != null and entry.createDate!= ''">
+                createdate = #{entry.createDate},
+            </if>
+        </set>
+        where id = #{entry.id}
+    </update>
+
+    <insert id="add" parameterType="entry" useGeneratedKeys="true" keyProperty="id">
+        insert into
+        <include refid="TABLE_NAME"></include>(
+        <include refid="Field"></include>
+        )
+        values
+        (<include refid="FieldValue"></include>)
+    </insert>
+    <select id="getById" parameterType="long" resultType="entry">
+        select
+        <include refid="column"></include>
+        from
+        <include refid="TABLE_NAME"></include>
+        where id = #{id}
+    </select>
+</mapper>

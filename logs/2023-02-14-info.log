@@ -1,0 +1,206 @@
+[2023-02-14 14:01:10.010] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting EbookApplication using Java 11.0.2 on LAPTOP-C3K9120U with PID 16744 (D:\LeStoreDownload\IDEA-workspace\huang\ebook\target\classes started by 芦庆 in D:\LeStoreDownload\IDEA-workspace\huang)
+[2023-02-14 14:01:10.010] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-02-14 14:01:11.011] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-02-14 14:01:11.011] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-02-14 14:01:11.011] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-02-14 14:01:11.011] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.69]
+[2023-02-14 14:01:11.011] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-02-14 14:01:11.011] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 681 ms
+[2023-02-14 14:01:11.011] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] [main] [56] [INFO ] Init DruidDataSource
+[2023-02-14 14:01:11.011] [com.alibaba.druid.pool.DruidDataSource] [main] [986] [INFO ] {dataSource-1} inited
+[2023-02-14 14:01:11.011] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [57] [INFO ] Adding welcome page template: index
+[2023-02-14 14:01:12.012] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-02-14 14:01:12.012] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-02-14 14:01:12.012] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started EbookApplication in 1.823 seconds (JVM running for 2.506)
+[2023-02-14 14:02:25.025] [com.alibaba.druid.pool.DruidDataSource] [SpringApplicationShutdownHook] [2039] [INFO ] {dataSource-1} closing ...
+[2023-02-14 14:02:25.025] [com.alibaba.druid.pool.DruidDataSource] [SpringApplicationShutdownHook] [2111] [INFO ] {dataSource-1} closed
+[2023-02-14 14:02:27.027] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting EbookApplication using Java 11.0.2 on LAPTOP-C3K9120U with PID 12296 (D:\LeStoreDownload\IDEA-workspace\huang\ebook\target\classes started by 芦庆 in D:\LeStoreDownload\IDEA-workspace\huang)
+[2023-02-14 14:02:27.027] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-02-14 14:02:28.028] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-02-14 14:02:28.028] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-02-14 14:02:28.028] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-02-14 14:02:28.028] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.69]
+[2023-02-14 14:02:28.028] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-02-14 14:02:28.028] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 683 ms
+[2023-02-14 14:02:28.028] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] [main] [56] [INFO ] Init DruidDataSource
+[2023-02-14 14:02:29.029] [com.alibaba.druid.pool.DruidDataSource] [main] [986] [INFO ] {dataSource-1} inited
+[2023-02-14 14:02:29.029] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [57] [INFO ] Adding welcome page template: index
+[2023-02-14 14:02:29.029] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-02-14 14:02:29.029] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-02-14 14:02:29.029] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started EbookApplication in 1.749 seconds (JVM running for 2.65)
+[2023-02-14 14:03:17.017] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-02-14 14:03:17.017] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2023-02-14 14:03:17.017] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 0 ms
+[2023-02-14 14:04:21.021] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-7] [173] [WARN ] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [331] milliseconds.
+[2023-02-14 14:10:14.014] [com.alibaba.druid.pool.DruidAbstractDataSource] [http-nio-8080-exec-1] [1489] [WARN ] discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ebook?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai, version : 1.2.5, lastPacketReceivedIdleMillis : 465224
+[2023-02-14 14:10:14.014] [com.alibaba.druid.pool.DruidAbstractDataSource] [http-nio-8080-exec-1] [1489] [WARN ] discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ebook?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai, version : 1.2.5, lastPacketReceivedIdleMillis : 465254
+[2023-02-14 14:10:14.014] [com.alibaba.druid.pool.DruidAbstractDataSource] [http-nio-8080-exec-1] [1489] [WARN ] discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ebook?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai, version : 1.2.5, lastPacketReceivedIdleMillis : 465282
+[2023-02-14 14:10:14.014] [com.alibaba.druid.pool.DruidAbstractDataSource] [http-nio-8080-exec-1] [1489] [WARN ] discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ebook?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai, version : 1.2.5, lastPacketReceivedIdleMillis : 465310
+[2023-02-14 14:10:14.014] [com.alibaba.druid.pool.DruidAbstractDataSource] [http-nio-8080-exec-1] [1489] [WARN ] discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ebook?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai, version : 1.2.5, lastPacketReceivedIdleMillis : 465339
+[2023-02-14 14:10:14.014] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-1] [137] [DEBUG] ==>  Preparing: SELECT `id`, `name` FROM `ebook_category`
+[2023-02-14 14:10:14.014] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 14:10:14.014] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-1] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 14:10:14.014] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 14:10:14.014] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] <==      Total: 1
+[2023-02-14 14:10:14.014] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-1] [137] [DEBUG] <==      Total: 4
+[2023-02-14 14:10:14.014] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?
+[2023-02-14 14:10:14.014] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==> Parameters: 2(Integer)
+[2023-02-14 14:10:14.014] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] <==      Total: 2
+[2023-02-14 14:12:45.045] [com.alibaba.druid.pool.DruidAbstractDataSource] [http-nio-8080-exec-9] [1489] [WARN ] discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ebook?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai, version : 1.2.5, lastPacketReceivedIdleMillis : 151533
+[2023-02-14 14:12:45.045] [com.alibaba.druid.pool.DruidAbstractDataSource] [http-nio-8080-exec-9] [1489] [WARN ] discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ebook?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai, version : 1.2.5, lastPacketReceivedIdleMillis : 151553
+[2023-02-14 14:12:45.045] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry` WHERE categoryId = ?
+[2023-02-14 14:12:46.046] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==> Parameters: 4(Integer)
+[2023-02-14 14:12:46.046] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] <==      Total: 1
+[2023-02-14 14:12:46.046] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` WHERE categoryId = ? order by id desc LIMIT ?
+[2023-02-14 14:12:46.046] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==> Parameters: 4(Integer), 2(Integer)
+[2023-02-14 14:12:46.046] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] <==      Total: 1
+[2023-02-14 14:26:02.002] [com.alibaba.druid.pool.DruidAbstractDataSource] [http-nio-8080-exec-2] [1489] [WARN ] discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ebook?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai, version : 1.2.5, lastPacketReceivedIdleMillis : 796450
+[2023-02-14 14:26:02.002] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 14:26:02.002] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 14:26:02.002] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] <==      Total: 1
+[2023-02-14 14:26:02.002] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?
+[2023-02-14 14:26:02.002] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==> Parameters: 2(Integer)
+[2023-02-14 14:26:02.002] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] <==      Total: 2
+[2023-02-14 14:26:02.002] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==>  Preparing: SELECT `id`, `name` FROM `ebook_category`
+[2023-02-14 14:26:02.002] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 14:26:02.002] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] <==      Total: 4
+[2023-02-14 14:26:06.006] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 14:26:06.006] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 14:26:06.006] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] <==      Total: 1
+[2023-02-14 14:26:06.006] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?, ?
+[2023-02-14 14:26:06.006] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==> Parameters: 4(Long), 2(Integer)
+[2023-02-14 14:26:06.006] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] <==      Total: 2
+[2023-02-14 14:26:08.008] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 14:26:08.008] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 14:26:08.008] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] <==      Total: 1
+[2023-02-14 14:26:08.008] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?
+[2023-02-14 14:26:08.008] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] ==> Parameters: 2(Integer)
+[2023-02-14 14:26:08.008] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] <==      Total: 2
+[2023-02-14 14:26:14.014] [com.alibaba.druid.pool.DruidDataSource] [SpringApplicationShutdownHook] [2039] [INFO ] {dataSource-1} closing ...
+[2023-02-14 14:26:14.014] [com.alibaba.druid.pool.DruidDataSource] [SpringApplicationShutdownHook] [2111] [INFO ] {dataSource-1} closed
+[2023-02-14 14:26:17.017] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting EbookApplication using Java 11.0.2 on LAPTOP-C3K9120U with PID 15976 (D:\LeStoreDownload\IDEA-workspace\huang\ebook\target\classes started by 芦庆 in D:\LeStoreDownload\IDEA-workspace\huang)
+[2023-02-14 14:26:17.017] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-02-14 14:26:18.018] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-02-14 14:26:18.018] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-02-14 14:26:18.018] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-02-14 14:26:18.018] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.69]
+[2023-02-14 14:26:18.018] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-02-14 14:26:18.018] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 735 ms
+[2023-02-14 14:26:18.018] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] [main] [56] [INFO ] Init DruidDataSource
+[2023-02-14 14:26:18.018] [com.alibaba.druid.pool.DruidDataSource] [main] [986] [INFO ] {dataSource-1} inited
+[2023-02-14 14:26:19.019] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [57] [INFO ] Adding welcome page template: index
+[2023-02-14 14:26:19.019] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-02-14 14:26:19.019] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-02-14 14:26:19.019] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started EbookApplication in 1.816 seconds (JVM running for 2.473)
+[2023-02-14 14:26:45.045] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-02-14 14:26:45.045] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2023-02-14 14:26:45.045] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 3 ms
+[2023-02-14 14:26:45.045] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==>  Preparing: SELECT `id`, `name` FROM `ebook_category`
+[2023-02-14 14:26:45.045] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 14:26:45.045] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 14:26:45.045] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 14:26:45.045] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] <==      Total: 1
+[2023-02-14 14:26:45.045] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] <==      Total: 4
+[2023-02-14 14:26:45.045] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?
+[2023-02-14 14:26:45.045] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==> Parameters: 2(Integer)
+[2023-02-14 14:26:45.045] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] <==      Total: 2
+[2023-02-14 16:41:08.008] [com.alibaba.druid.pool.DruidDataSource] [SpringApplicationShutdownHook] [2039] [INFO ] {dataSource-1} closing ...
+[2023-02-14 16:41:08.008] [com.alibaba.druid.pool.DruidDataSource] [SpringApplicationShutdownHook] [2111] [INFO ] {dataSource-1} closed
+[2023-02-14 17:23:47.047] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting EbookApplication using Java 11.0.2 on LAPTOP-C3K9120U with PID 13660 (D:\LeStoreDownload\IDEA-workspace\huang\ebook\target\classes started by 芦庆 in D:\LeStoreDownload\IDEA-workspace\huang)
+[2023-02-14 17:23:47.047] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-02-14 17:23:48.048] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-02-14 17:23:48.048] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-02-14 17:23:48.048] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-02-14 17:23:48.048] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.69]
+[2023-02-14 17:23:48.048] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-02-14 17:23:48.048] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 692 ms
+[2023-02-14 17:23:48.048] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] [main] [56] [INFO ] Init DruidDataSource
+[2023-02-14 17:23:48.048] [com.alibaba.druid.pool.DruidDataSource] [main] [986] [INFO ] {dataSource-1} inited
+[2023-02-14 17:23:48.048] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [57] [INFO ] Adding welcome page template: index
+[2023-02-14 17:23:49.049] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-02-14 17:23:49.049] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-02-14 17:23:49.049] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started EbookApplication in 1.832 seconds (JVM running for 2.846)
+[2023-02-14 17:39:36.036] [com.alibaba.druid.pool.DruidDataSource] [SpringApplicationShutdownHook] [2039] [INFO ] {dataSource-1} closing ...
+[2023-02-14 17:39:36.036] [com.alibaba.druid.pool.DruidDataSource] [SpringApplicationShutdownHook] [2111] [INFO ] {dataSource-1} closed
+[2023-02-14 17:40:03.003] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting EbookApplication using Java 11.0.2 on LAPTOP-C3K9120U with PID 3224 (D:\LeStoreDownload\IDEA-workspace\huang\ebook\target\classes started by 芦庆 in D:\LeStoreDownload\IDEA-workspace\huang)
+[2023-02-14 17:40:03.003] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-02-14 17:40:04.004] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-02-14 17:40:04.004] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-02-14 17:40:04.004] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-02-14 17:40:04.004] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.69]
+[2023-02-14 17:40:04.004] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-02-14 17:40:04.004] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 701 ms
+[2023-02-14 17:40:04.004] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] [main] [56] [INFO ] Init DruidDataSource
+[2023-02-14 17:40:04.004] [com.alibaba.druid.pool.DruidDataSource] [main] [986] [INFO ] {dataSource-1} inited
+[2023-02-14 17:40:04.004] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [57] [INFO ] Adding welcome page template: index
+[2023-02-14 17:40:04.004] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-02-14 17:40:04.004] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-02-14 17:40:04.004] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started EbookApplication in 1.783 seconds (JVM running for 2.483)
+[2023-02-14 17:40:20.020] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-02-14 17:40:20.020] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2023-02-14 17:40:20.020] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2023-02-14 17:40:21.021] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==>  Preparing: SELECT `id`, `name` FROM `ebook_category`
+[2023-02-14 17:40:21.021] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 17:40:21.021] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 17:40:21.021] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 17:40:21.021] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] <==      Total: 4
+[2023-02-14 17:40:21.021] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:21.021] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?
+[2023-02-14 17:40:21.021] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] ==> Parameters: 2(Integer)
+[2023-02-14 17:40:21.021] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-3] [137] [DEBUG] <==      Total: 2
+[2023-02-14 17:40:22.022] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-4] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 17:40:22.022] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-4] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 17:40:22.022] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-4] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:22.022] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-4] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?, ?
+[2023-02-14 17:40:22.022] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-4] [137] [DEBUG] ==> Parameters: 2(Long), 2(Integer)
+[2023-02-14 17:40:22.022] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-4] [137] [DEBUG] <==      Total: 2
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-5] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-5] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-5] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-5] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?, ?
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-5] [137] [DEBUG] ==> Parameters: 4(Long), 2(Integer)
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-5] [137] [DEBUG] <==      Total: 2
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-6] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-6] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-6] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-6] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?, ?
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-6] [137] [DEBUG] ==> Parameters: 4(Long), 2(Integer)
+[2023-02-14 17:40:23.023] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-6] [137] [DEBUG] <==      Total: 2
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-7] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-7] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-7] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-7] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?, ?
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-7] [137] [DEBUG] ==> Parameters: 4(Long), 2(Integer)
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-7] [137] [DEBUG] <==      Total: 2
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-8] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-8] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-8] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-8] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?, ?
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-8] [137] [DEBUG] ==> Parameters: 2(Long), 2(Integer)
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-8] [137] [DEBUG] <==      Total: 2
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry`
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] ==> Parameters: 
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` order by id desc LIMIT ?
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] ==> Parameters: 2(Integer)
+[2023-02-14 17:40:24.024] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-10] [137] [DEBUG] <==      Total: 2
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry` WHERE categoryId = ?
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==> Parameters: 2(Integer)
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` WHERE categoryId = ? order by id desc LIMIT ?
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] ==> Parameters: 2(Integer), 2(Integer)
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-9] [137] [DEBUG] <==      Total: 2
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-1] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry` WHERE categoryId = ?
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-1] [137] [DEBUG] ==> Parameters: 2(Integer)
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-1] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-1] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` WHERE categoryId = ? order by id desc LIMIT ?
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-1] [137] [DEBUG] ==> Parameters: 2(Integer), 2(Integer)
+[2023-02-14 17:40:28.028] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-1] [137] [DEBUG] <==      Total: 2
+[2023-02-14 17:40:31.031] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==>  Preparing: SELECT count(0) FROM `ebook_entry` WHERE categoryId = ?
+[2023-02-14 17:40:31.031] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==> Parameters: 3(Integer)
+[2023-02-14 17:40:31.031] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:31.031] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==>  Preparing: select `id` , `categoryId`, `title`, `summary`, `uploaduser`, `createdate` from `ebook_entry` WHERE categoryId = ? order by id desc LIMIT ?
+[2023-02-14 17:40:31.031] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] ==> Parameters: 3(Integer), 2(Integer)
+[2023-02-14 17:40:31.031] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-8080-exec-2] [137] [DEBUG] <==      Total: 1
+[2023-02-14 17:40:42.042] [com.alibaba.druid.pool.DruidDataSource] [SpringApplicationShutdownHook] [2039] [INFO ] {dataSource-1} closing ...
+[2023-02-14 17:40:42.042] [com.alibaba.druid.pool.DruidDataSource] [SpringApplicationShutdownHook] [2111] [INFO ] {dataSource-1} closed

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-data-jpa" />
+        <module name="stream-flow" />
+        <module name="druid-demo" />
+        <module name="ebook" />
+        <module name="extends-demo1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="druid-demo" target="1.8" />
+      <module name="ebook" target="1.8" />
+      <module name="extends-demo1" target="1.8" />
+      <module name="spring-data-jpa" target="1.8" />
+      <module name="stream-flow" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ebook" options="-parameters" />
+      <module name="spring-data-jpa" options="-parameters" />
+    </option>
+  </component>
+</project>

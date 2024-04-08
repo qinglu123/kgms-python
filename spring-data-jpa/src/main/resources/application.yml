@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: mysql
+    url: jdbc:mysql://localhost:3306/spring_data_jpa?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true #为true代表打印SQL语句，为false则代表不打印
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect  #用来指定使用哪种MySQL存储引擎 这里是InnoDB
+    database: mysql #指定数据库管理系统
+    properties:
+      hibernate:
+        format_sql: true #是否格式化生成的sql语句，默认为false。
